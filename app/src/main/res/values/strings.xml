@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MercadoPago</string>
+
+    <!-- Login biométrico -->
+    <string name="biometric_title">Iniciar sesión en Mercado Pago</string>
+    <string name="biometric_subtitle">Usa tu huella dactilar para continuar</string>
+    <string name="biometric_negative_button">Cancelar</string>
+    <string name="biometric_success">¡Huella validada con éxito!</string>
+    <string name="biometric_failed">Huella no reconocida. Intenta de nuevo.</string>
+    <string name="biometric_error_canceled">Autenticación cancelada por el usuario.</string>
+    <string name="biometric_error_lockout">Demasiados intentos fallidos. Espera unos segundos e intenta de nuevo.</string>
+    <string name="biometric_error_lockout_permanent">Sensor bloqueado por demasiados intentos fallidos.</string>
+    <string name="biometric_error_no_biometrics">No hay huellas registradas en el dispositivo.</string>
+    <string name="biometric_error_hw_unavailable">El sensor biométrico no está disponible.</string>
+    <string name="biometric_error_generic">Error de autenticación: %1$s</string>
+    <string name="biometric_no_hardware">Este dispositivo no tiene sensor de huella.</string>
+    <string name="biometric_none_enrolled">No hay huellas registradas. Agrega una en Ajustes.</string>
+    <string name="biometric_not_available">La autenticación biométrica no está disponible.</string>
+    <!-- Transferencias -->
+    <string name="saldo_disponible_fmt">Saldo disponible: %1$s</string>
+    <string name="error_destinatario_vacio">Ingresa un destinatario</string>
+    <string name="error_monto_invalido">Ingresa un monto válido mayor a 0</string>
+    <string name="error_saldo_insuficiente">Saldo insuficiente</string>
+    <string name="transferencia_exito">Transferencia realizada con éxito</string>
+    <string name="transferencia_error">No se pudo completar la transferencia</string>
+
+    <!-- Movimientos -->
+    <string name="titulo_movimientos">Movimientos</string>
+    <string name="sin_movimientos">Aún no tienes movimientos registrados.</string>
+    <string name="btn_volver_panel">Volver al panel</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="msg_movimiento_eliminado">Movimiento eliminado</string>
+    <string name="titulo_confirmar_eliminacion">Eliminar movimiento</string>
+    <string name="msg_confirmar_eliminacion">¿Deseas eliminar este registro del historial?</string>
+    <string name="btn_confirmar">Sí, eliminar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="detalle_movimiento_fmt">%1$s — %2$s (%3$s)</string>
+</resources>

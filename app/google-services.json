@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "457108520356",
+    "project_id": "cuenta0-b53b4",
+    "storage_bucket": "cuenta0-b53b4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457108520356:android:033bb7b7c4ad75cd649531",
+        "android_client_info": {
+          "package_name": "com.example.mercadopago"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCK2v9kfCznPjEVlGoJSpcknVXJK8CvOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

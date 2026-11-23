@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#FFF5F8"
+    tools:context=".PanelActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSaldo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saldo disponible"
+                android:textColor="#161515"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvSaldo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="$12,500.00"
+                android:textColor="#E424D1"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnTransferir"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:text="Transferir dinero"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#E4257D"
+        app:cornerRadius="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardSaldo" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMovimientos"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="14dp"
+        android:text="Ver movimientos"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#AD1457"
+        app:cornerRadius="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnTransferir" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:text="Cerrar sesión"
+        android:textColor="#141314"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="#E644FF"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
